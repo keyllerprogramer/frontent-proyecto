@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+height: 60px;
+    align-items: center;
+     padding: 40px 100px;
+  background-color: #F5F6F8;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav ul{
+   list-style: none;
+  padding: 0;
+ 
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #4B5565;
+  font-weight: 500;
+}
+
+.footer-logo img{
+    width: 50px;
+}

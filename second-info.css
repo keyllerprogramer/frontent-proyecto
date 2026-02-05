@@ -1,0 +1,32 @@
+.second-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+}
+
+.column h2, .columna p{
+    text-align: left;
+}
+
+.primer-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.segundo-texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

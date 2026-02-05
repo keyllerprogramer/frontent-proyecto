@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+     line-height: 1.5;
+    
+}
+
+
+.imagen-de-fondo{
+    height: 400px;                 /* ocupa toda la pantalla */
+  background-image: url("images/bg-header-desktop.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;           /* centro horizontal */
+  align-items: center;      
+    
+}
+
+
+p{
+    color: #A3A9B2;
+    max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+   
+}
+
+.first-container, .second-info h1, h2{
+    color: #4B5565;
+    text-align: center;
+}
+
+button{
+  background-color: #3CBBA9;  /* verde agua (puedes cambiar al color que quieras) */
+  color: white;
+  border: none;
+  border-radius: 30px;        /* bordes redondeados grandes */
+  padding: 12px 30px;         /* altura y ancho */
+  font-weight: 600;
+  font-family: 'Bai Jamjuree', sans-serif;  /* si usas esa fuente */
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* sombra suave */
+  transition: background-color 0.3s ease;
+  margin-right: 15px;   
+}
+
+button:last-child {
+  background-color: #6173FF;  /* azul para el segundo botón */
+  margin-right: 0;
+}
+
+.botones-wrapper{
+    margin-top: 20px;
+}
